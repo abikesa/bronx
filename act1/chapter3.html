@@ -642,19 +642,19 @@ blockquote a:hover {
     <span class="k">return</span> <span class="p">{</span>
         <span class="s1">&#39;Suis&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Services&#39;</span><span class="p">,</span> <span class="s1">&#39;Agents&#39;</span><span class="p">,</span> <span class="s1">&#39;Principals&#39;</span><span class="p">,</span> <span class="s1">&#39;Risks&#39;</span><span class="p">,</span> <span class="s1">&#39;Data&#39;</span><span class="p">,</span> <span class="s1">&#39;Research&#39;</span><span class="p">,</span> <span class="p">],</span> <span class="c1"># Static</span>
         <span class="s1">&#39;Voir&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Info&#39;</span><span class="p">],</span>  
-        <span class="s1">&#39;Choisis&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Analog&#39;</span><span class="p">,</span> <span class="s1">&#39;Digital&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;Choisis&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Digital&#39;</span><span class="p">,</span> <span class="s1">&#39;Analog&#39;</span><span class="p">],</span>  
         <span class="s1">&#39;Deviens&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;War&#39;</span><span class="p">,</span> <span class="s1">&#39;Start-ups&#39;</span><span class="p">,</span> <span class="s1">&#39;Ventures&#39;</span><span class="p">],</span>  
-        <span class="s2">&quot;M&#39;èléve&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Exile&#39;</span><span class="p">,</span> <span class="s1">&#39;Mythic&#39;</span><span class="p">,</span>  <span class="s1">&#39;Vulnerable&#39;</span><span class="p">,</span> <span class="s1">&#39;Epistemic&#39;</span><span class="p">,</span> <span class="s1">&#39;Talent&#39;</span><span class="p">]</span>  
+        <span class="s2">&quot;M&#39;èléve&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Exile&#39;</span><span class="p">,</span> <span class="s1">&#39;Epistemic&#39;</span><span class="p">,</span>  <span class="s1">&#39;Vulnerable&#39;</span><span class="p">,</span> <span class="s1">&#39;Mythic&#39;</span><span class="p">,</span> <span class="s1">&#39;Talent&#39;</span><span class="p">]</span>  
     <span class="p">}</span>
 
 <span class="c1"># Assign colors to nodes</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">assign_colors</span><span class="p">():</span>
     <span class="n">color_map</span> <span class="o">=</span> <span class="p">{</span> <span class="c1"># Dynamic</span>
         <span class="s1">&#39;yellow&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Info&#39;</span><span class="p">],</span>  
-        <span class="s1">&#39;paleturquoise&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Research&#39;</span><span class="p">,</span> <span class="s1">&#39;Digital&#39;</span><span class="p">,</span> <span class="s1">&#39;Ventures&#39;</span><span class="p">,</span> <span class="s1">&#39;Talent&#39;</span><span class="p">],</span>  
-        <span class="s1">&#39;lightgreen&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Data&#39;</span><span class="p">,</span> <span class="s1">&#39;Start-ups&#39;</span><span class="p">,</span> <span class="s1">&#39;Mythic&#39;</span><span class="p">,</span> <span class="s1">&#39;Epistemic&#39;</span><span class="p">,</span> <span class="s1">&#39;Vulnerable&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;paleturquoise&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Research&#39;</span><span class="p">,</span> <span class="s1">&#39;Analog&#39;</span><span class="p">,</span> <span class="s1">&#39;Ventures&#39;</span><span class="p">,</span> <span class="s1">&#39;Talent&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;lightgreen&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Data&#39;</span><span class="p">,</span> <span class="s1">&#39;Start-ups&#39;</span><span class="p">,</span> <span class="s1">&#39;Epistemic&#39;</span><span class="p">,</span> <span class="s1">&#39;Mythic&#39;</span><span class="p">,</span> <span class="s1">&#39;Vulnerable&#39;</span><span class="p">],</span>  
         <span class="s1">&#39;lightsalmon&#39;</span><span class="p">:</span> <span class="p">[</span>
-            <span class="s1">&#39;Principals&#39;</span><span class="p">,</span> <span class="s1">&#39;Risks&#39;</span><span class="p">,</span> <span class="s1">&#39;Analog&#39;</span><span class="p">,</span>  
+            <span class="s1">&#39;Principals&#39;</span><span class="p">,</span> <span class="s1">&#39;Risks&#39;</span><span class="p">,</span> <span class="s1">&#39;Digital&#39;</span><span class="p">,</span>  
             <span class="s1">&#39;War&#39;</span><span class="p">,</span> <span class="s1">&#39;Exile&#39;</span>
         <span class="p">],</span>
     <span class="p">}</span>
@@ -707,7 +707,7 @@ blockquote a:hover {
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../_images/50be71c0f372fbc261e10abb5f4f1fa917e4530eedb25dfc4d4210b003e9601c.png" src="../_images/50be71c0f372fbc261e10abb5f4f1fa917e4530eedb25dfc4d4210b003e9601c.png" />
+<img alt="../_images/9e8177e85b370c45ab3228ec65dba5d2d6d1c03a53ddba328d3a1f18fae9dc2b.png" src="../_images/9e8177e85b370c45ab3228ec65dba5d2d6d1c03a53ddba328d3a1f18fae9dc2b.png" />
 </div>
 </div>
    <div class="float-right" style="float:none;width:100%;margin-left:0;border:none;padding:0;background:none;">
