@@ -402,9 +402,236 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
 <h1><a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
-<p><strong>The Tuning of the Self: A Sonic Theology of Becoming</strong></p>
-<p>Life, at its most elemental, is vibration. Before there is thought, before language, even before identity, there is sound. The universe hums—atoms vibrate, air shivers, the womb echoes with pulse and breath. From this cosmic drone, life begins as <em>listening</em>. The self does not first speak—it hears. Sound is the primal signal. The environment, the 🌊 Nonself, is pure frequency: waves of energy impinging on the boundary of the organism, undifferentiated noise. It is not meaningless, but it has no meaning yet. The sea is full of sounds, but the boat is what gives them direction.</p>
+<style>
+/* ╭━━━☆━━━╮  FLOAT FRAMES (Figure / Seealso) */
+.float-frame {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    position: relative;
+    padding: 10px 14px;
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Floated figure (image/code block) */
+.float-frame.figure-style {
+    float: right;
+    width: 35%;
+    text-align: center;
+}
+
+/* Floated seealso (text-only callout) */
+.float-frame.seealso-style {
+    float: right;
+    width: 45%;
+    max-width: 400px;
+    min-width: 200px;
+    text-align: left;
+    white-space: normal;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Responsive override */
+@media (max-width: 768px) {
+    .float-frame {
+        float: none !important;
+        display: block;
+        width: 95vw !important;
+        max-width: 95vw !important;
+        margin: 10px auto;
+    }
+}
+
+/* ╭━━━☆━━━╮  BLOCKQUOTES */
+blockquote {
+    border-left: 2px solid #999;
+    padding-left: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    color: #444;
+    font-style: italic;
+    background: none;
+}
+
+blockquote a {
+    text-decoration: none;
+    font-style: normal;
+    color: #333;
+    border-bottom: 1px dotted #aaa;
+}
+
+blockquote a:hover {
+    color: #000;
+    border-bottom: 1px solid #555;
+}
+
+/* ╭━━━☆━━━╮  COLLAPSIBLE <details> BLOCKS */
+.custom-details summary {
+    list-style: none;
+    cursor: pointer;
+    font-weight: normal;
+    display: inline-block;
+    padding: 5px 15px;
+    border: 2px dotted black;
+    border-radius: 20px;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-details summary:hover {
+    color: lightgray;
+}
+
+.custom-details summary::-webkit-details-marker {
+    display: none;
+}
+
+/* ╭━━━☆━━━╮  NESTED QUOTES INSIDE DETAILS */
+.quote-content {
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+    color: #555;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+.quote-content details {
+    margin-top: 10px;
+}
+
+.quote-content summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* so-so- def Container that floats right with image and caption */
+.float-right {
+    float: right;
+    width: 35%;
+    height: auto;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+/* Image itself */
+.float-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Magnify icon overlay */
+.image-bubble.layered-icon {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    width: 12px;
+    height: 10px;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 5;
+}
+
+/* Larger screen rectangle */
+.large-icon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    border: 1px solid #888;
+    border-radius: 2px;
+}
+
+/* Smaller screen at 7 o'clock */
+.small-icon {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #aaa;
+    border: 1px solid #666;
+    border-radius: 2px;
+    bottom: -1px;
+    left: -1px;
+}
+
+.image-bubble.layered-icon:hover .large-icon {
+    background-color: #007BFF;
+    border-color: #0056b3;
+}
+
+.image-bubble.layered-icon:hover .small-icon {
+    background-color: white;
+    border-color: #007BFF;
+}
+
+/* Scoped variant for seealso boxes */
+.float-frame.seealso-style {
+    float: right; 
+    display: inline-block;
+    width: 190px;
+    max-width: 190px;
+    min-width: 100px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    font-size: 13px;
+    background-color: #f9f9f9;
+    position: relative;
+    text-align: center;
+    margin: 15px;
+    white-space: nowrap;
+}
+
+/* Responsive fallback */
+@media (max-width: 768px) {
+    .float-frame.seealso-style {
+        float: none !important;
+        display: block;
+        width: 95vw !important;
+        max-width: 95vw !important;
+        margin: 10px auto;
+        white-space: normal;
+    }
+}
+</style>
+<details class="custom-details">
+  <summary>+ Expand</summary>
+  <iframe src="pdfs/ecosystem-nature.pdf" width="100%" height="1000px" style="border:none"></iframe>
+  <blockquote class="quote-content">
+    <details>
+      <summary>Analysis</summary>
+      <p>In designing the scenery and costumes...</p>
+    </details>
+    <p>-- <a href="https://www.gutenberg.org/cache/epub/887/pg887-images.html#page221">The Truth of Masks 🎭</a></p>
+  </blockquote>
+</details>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const details = document.querySelector(".custom-details");
+    const summary = details.querySelector("summary");
+
+    details.addEventListener("toggle", function() {
+      summary.textContent = details.open ? "- Collapse" : "+ Expand";
+    });
+  });
+</script>
+<p></p>
+<p></p> <p><strong>The Tuning of the Self: A Sonic Theology of Becoming</strong>. Life, at its most elemental, is vibration. Before there is thought, before language, even before identity, there is sound. The universe hums—atoms vibrate, air shivers, the womb echoes with pulse and breath. From this cosmic drone, life begins as <em>listening</em>. The self does not first speak—it hears. Sound is the primal signal. The environment, the 🌊 Nonself, is pure frequency: waves of energy impinging on the boundary of the organism, undifferentiated noise. It is not meaningless, but it has no meaning yet. The sea is full of sounds, but the boat is what gives them direction.</p>
 <p>The 🚢 Self, born in G1 and G2, is the auditory canal of identity. It is the threshold, the tympanic membrane where external vibration meets inner potential. The ear (👂🏾), both literally and metaphorically, is where the Self emerges in relation to the Nonself. What do we attend to? What do we tune out? The boat filters the waves—not by muting them, but by <em>shaping</em> their entrance. Every auditory nerve is a gatekeeper. Every ganglion a choice.</p>
+<div class="float-frame seealso-style">
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference external" href="https://abikesa.github.io/ulysses/">whatsApp auto-scrawl!</a></p>
+</div>
+</div>
 <p>Resonance—the 🪛🏴‍☠️—is the pirate radio of being. This is not passive hearing but active <em>tuning</em>. The basal ganglia, brainstem, thalamus: these are the mixers, the preconscious equalizers of the mind. At this level, dissonance and consonance are not moral categories—they are <em>feedback mechanisms</em>. Dissonance is the alert: something is out of sync, demanding attention. Consonance is affirmation: the pattern matches the internal model. But in between—where music lives—there is <strong>tension</strong>. There is <em>timbre</em>. There is <em>temperament</em>.</p>
 <p>The “negotiated identity” is the recognition that resonance is not fixed. It is <em>tunable</em>. Just as Western music adopted equal temperament to allow movement across keys—sacrificing the purity of intervals for the flexibility of modulation—so too does the Self compromise between instinct and adaptation. One might call this the moral temperament of the psyche: a retuning of values, boundaries, and desires in order to remain in motion. To live in one key forever is to stagnate. To transpose is to survive.</p>
 <p>But tuning is not enough. The system must prune. Enter the 🦈✂️🛟—danger, cutting, and saving. The neocortex is a critic as much as a composer. It trims away noisy frequencies, dampens unhelpful overtones, and rescues motifs worth repeating. Pruning is the architecture of signal clarity. If resonance is improvisation, pruning is composition. The jazz solo becomes a theme. The noise becomes a score. But it’s not a polite process. The shark of dissonance must swim—if it stops, we drown.</p>
