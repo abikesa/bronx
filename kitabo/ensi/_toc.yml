@@ -39,7 +39,7 @@ chapters:
         sections:
           - title: Transactional
             file: act3/part2/part2_1
-          - title: Iterative
+          - title: Suspended
             file: act3/part2/part2_2
           - title: Loyal
             file: act3/part2/part2_3
@@ -50,7 +50,7 @@ chapters:
             file: act3/part3/part3_1
           - title: Unconditional
             file: act3/part3/part3_2
-          - title: Family
+          - title: 'Family 🎹' 
             file: act3/part3/part3_3
 
   - file: bibliography
