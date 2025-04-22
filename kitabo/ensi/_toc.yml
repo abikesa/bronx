@@ -25,7 +25,7 @@ chapters:
   # Apollo
   - file: act3/part3
     sections:
-      - title: Self 🗡'️
+      - title: 'Self 🗡'
         file: act3/act1
         sections:
           - title: Adversarial
@@ -41,7 +41,7 @@ chapters:
             file: act3/part2/part2_1
           - title: Iterative
             file: act3/part2/part2_2
-          - title: Loyalty
+          - title: Loyal
             file: act3/part2/part2_3
       - title: 'Nonself ❤️' 
         file: act3/act3
@@ -50,7 +50,7 @@ chapters:
             file: act3/part3/part3_1
           - title: Unconditional
             file: act3/part3/part3_2
-          - title: Ontological
+          - title: Family
             file: act3/part3/part3_3
 
   - file: bibliography
